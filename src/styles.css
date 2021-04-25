@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap");
+
+.App {
+  font-family: "Roboto", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+  color: white;
+}
+
+.App h1 {
+  font-size: 2em;
+  color: white;
+}
+
+.App h2 {
+  font-size: 1em;
+  color: white;
+}
+
+.CenterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Table {
+  display: table;
+  margin-left: 3%;
+}
+
+.TableGreeting {
+  display: table;
+  margin-left: 3%;
+}
+
+.TableRight {
+  display: table;
+  margin-right: 6%;
+  margin-left: auto;
+}
+
+.TableCenter {
+  text-align: left;
+  display: table;
+  margin-right: ;
+  margin-left: 25%;
+  position: absolute;
+  bottom: 7%;
+}
+
+.Table .Row {
+  display: table-row;
+  align-items: right;
+  justify-content: right;
+}
+
+.Table .Cell {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.Clickable {
+  cursor: pointer;
+}
+
+.Clickable:hover {
+  background-color: #ff7b25;
+}
+
+.bgcolor {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.greeting {
+  text-shadow: 3px 3px 5px black;
+  font-size: 3.6em;
+  font-weight: 10;
+  font-family: "Roboto", sans-serif;
+}
+
+.halfsize {
+  font-size: 0.75em;
+}
+
+.routes {
+  font-size: 2em;
+  text-shadow: 1px 2px 3px black;
+  font-weight: bold;
+}
+
+.routetitle {
+  font-size: 1.3em;
+  text-shadow: 1px 2px 3px black;
+  font-weight: bold;
+  text-decoration: italic;
+}
+
+.rowC {
+  display: flex;
+  flex-direction: row;
+}
+
+.news {
+  font-family: Arial;
+}
+
+.cabin {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.routetimes {
+  text-shadow: 2px 2px 4px;
+  font-size: 2em;
+}
